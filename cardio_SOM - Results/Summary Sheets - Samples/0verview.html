@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Summary of cardio_SOM dataset</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #fff;
+        font: normal normal normal 14px/180% sans-serif;
+      }
+
+      #wrapper {
+        width: 90%;
+        min-width: 400px;
+        max-width: 800px;
+        margin: 20px auto;
+      }
+
+      h1, h2 {
+        margin: 30px 0 0 0;
+        line-height: 210%;
+        border-bottom: 1px solid #eee;
+      }
+
+      dl {
+        line-height: 180%;
+      }
+
+      dl dt {
+        width: 50%;
+        float: left;
+        color: #111;
+      }
+
+      dl dt:after {
+        content: ':';
+      }
+
+      a {
+        color: #4183C4;
+        text-decoration: none;
+      }
+
+      table {
+        width: 100%;
+        margin: 24px 0;
+        border-collapse: collapse;
+      }
+
+      table th,
+      table td {
+        text-align: left;
+        padding: 4px 6px;
+      }
+
+      table thead tr,
+      table tbody tr:nth-child(2n) {
+        background-color: #f0f0f0;
+      }
+
+      table td a {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Classification Overview</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Groups</th>
+            <th>Number of Samples</th>
+          </tr>
+        </head>
+        <tbody>
+          <tr>
+            <td>24hpf_neg</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>24hpf_pos</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>48hpf_neg</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>48hpf_pos</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>72hpf_neg</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>72hpf_pos</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>72hpf_neg_gata5</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_gata5</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>72hpf_neg_tbx5</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_tbx5</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>72hpf_neg_hand2</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_hand2</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h1>Sample Summary Sheets</h1>
+
+      <p>
+        For each sample a report sheet is created which summarizes the most
+        relevant information using the global and local perspective.
+        The global summary shows the ranked list of differentially expressed
+        genes for the whole sample, the ranked list of over- and underexpressed
+        gene sets after GSZ-overexpression analysis and the respective p-value
+        distributions.
+        The gene and gene set list are provided as tables.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Sample Name</th>
+            <th>Group</th>
+            <th>Summary Sheet</th>
+            <th>Global Gene List</th>
+            <th>Gene Set List</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24hpf_neg</td>
+            <td> 24hpf_neg</td>
+            <td>
+              <a href="X24hpf_neg.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X24hpf_neg.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X24hpf_neg.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>24hpf_pos</td>
+            <td> 24hpf_pos</td>
+            <td>
+              <a href="X24hpf_pos.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X24hpf_pos.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X24hpf_pos.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>24hpf_pos.1</td>
+            <td> 24hpf_pos</td>
+            <td>
+              <a href="X24hpf_pos.1.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X24hpf_pos.1.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X24hpf_pos.1.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>48hpf_neg</td>
+            <td> 48hpf_neg</td>
+            <td>
+              <a href="X48hpf_neg.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X48hpf_neg.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X48hpf_neg.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>48hpf_pos</td>
+            <td> 48hpf_pos</td>
+            <td>
+              <a href="X48hpf_pos.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X48hpf_pos.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X48hpf_pos.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>48hpf_pos.1</td>
+            <td> 48hpf_pos</td>
+            <td>
+              <a href="X48hpf_pos.1.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X48hpf_pos.1.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X48hpf_pos.1.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_neg</td>
+            <td> 72hpf_neg</td>
+            <td>
+              <a href="X72hpf_neg.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_neg.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_neg.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos</td>
+            <td> 72hpf_pos</td>
+            <td>
+              <a href="X72hpf_pos.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos.1</td>
+            <td> 72hpf_pos</td>
+            <td>
+              <a href="X72hpf_pos.1.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos.1.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos.1.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_neg_gata5</td>
+            <td> 72hpf_neg_gata5</td>
+            <td>
+              <a href="X72hpf_neg_gata5.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_neg_gata5.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_neg_gata5.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_gata5</td>
+            <td> 72hpf_pos_gata5</td>
+            <td>
+              <a href="X72hpf_pos_gata5.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos_gata5.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos_gata5.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_gata5.1</td>
+            <td> 72hpf_pos_gata5</td>
+            <td>
+              <a href="X72hpf_pos_gata5.1.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos_gata5.1.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos_gata5.1.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_neg_tbx5</td>
+            <td> 72hpf_neg_tbx5</td>
+            <td>
+              <a href="X72hpf_neg_tbx5.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_neg_tbx5.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_neg_tbx5.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_tbx5</td>
+            <td> 72hpf_pos_tbx5</td>
+            <td>
+              <a href="X72hpf_pos_tbx5.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos_tbx5.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos_tbx5.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_tbx5.1</td>
+            <td> 72hpf_pos_tbx5</td>
+            <td>
+              <a href="X72hpf_pos_tbx5.1.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos_tbx5.1.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos_tbx5.1.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_neg_hand2</td>
+            <td> 72hpf_neg_hand2</td>
+            <td>
+              <a href="X72hpf_neg_hand2.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_neg_hand2.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_neg_hand2.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_hand2</td>
+            <td> 72hpf_pos_hand2</td>
+            <td>
+              <a href="X72hpf_pos_hand2.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos_hand2.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos_hand2.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>72hpf_pos_hand2.1</td>
+            <td> 72hpf_pos_hand2</td>
+            <td>
+              <a href="X72hpf_pos_hand2.1.pdf" target="_blank">
+                PDF
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Lists - Global/X72hpf_pos_hand2.1.csv" >
+                CSV
+              </a>
+            </td>
+            <td>
+              <a href="../CSV Sheets/Gene Set Lists - Global/X72hpf_pos_hand2.1.csv" target="_blank">
+                CSV
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
